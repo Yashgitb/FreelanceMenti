@@ -391,7 +391,7 @@ export default function Workspace() {
                                 {m.attachments.map((a: any, idx: number) => (
                                   <a
                                     key={idx}
-                                    href={`http://localhost:4000${a.url}`}
+                                    href={`${API_BASE_URL}${a.url}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-blue-600 underline text-xs"
